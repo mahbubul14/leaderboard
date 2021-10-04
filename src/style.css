@@ -1,7 +1,19 @@
-.hello {
-    color: red;
-  }
-  
-  body {
-    background-color: bisque;
+main {
+  display: flex;
+
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  width: 50%;
+  max-width: 50%;
+  margin: 30px;
 }
