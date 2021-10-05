@@ -1,0 +1,40 @@
+main {
+  display: flex;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  max-width: 20%;
+}
+
+section {
+  width: 40%;
+  max-width: 50%;
+  margin: 30px;
+}
+
+#name {
+  margin-bottom: 20px;
+}
+
+#score {
+  margin-bottom: 20px;
+}
+
+#submit {
+  width: 70px;
+}
+
+#refresh {
+  margin: 20px;
+}
+
+li {
+  list-style: none;
+}
