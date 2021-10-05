@@ -1,6 +1,5 @@
 main {
   display: flex;
-
 }
 
 .flex {
@@ -15,7 +14,7 @@ main {
 }
 
 section {
-  width: 50%;
+  width: 40%;
   max-width: 50%;
   margin: 30px;
 }
