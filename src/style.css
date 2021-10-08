@@ -2,10 +2,11 @@ main {
   display: flex;
 }
 
-h1{
+h1 {
   margin-top: 40px;
   margin-bottom: 70px;
 }
+
 .first {
   margin-left: 60px;
 }
@@ -49,5 +50,5 @@ h1{
 .table {
   border: 3px  solid black;
   padding: 8px;
-  background-color: darkseagreen;
+  background-color: lightgreen;
 }
