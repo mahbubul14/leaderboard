@@ -1,10 +1,10 @@
 // import 'lodash';
-// import './style.css';
+import './style.css';
 
 const players = [];
 
 const table = document.querySelector('.table');
-const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/scores/';
+const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/7p06s7iTb0rdCtnItvZ9/scores/';
 const yourName = document.getElementById('name');
 const score = document.getElementById('score');
 const refresh = document.getElementById('refresh');
