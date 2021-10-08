@@ -1,14 +1,13 @@
-// import 'lodash';
-// import './style.css';
+import './style.css';
 
-const players = [];
+let results = [];
 
 const table = document.querySelector('.table');
 const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/7p06s7iTb0rdCtnItvZ9/scores/';
 const yourName = document.getElementById('name');
 const score = document.getElementById('score');
 const refresh = document.getElementById('refresh');
-const submit = document.getElementById('submit')
+const submit = document.getElementById('submit');
 
 const produceResult = (results) => {
   const childEle = Array.from(document.querySelectorAll('.table div'));
@@ -23,7 +22,7 @@ const produceResult = (results) => {
     list.innerText = content;
     table.appendChild(list);
   });
-}
+};
 
 const sendScores = async () => {
   const response = await (await fetch(url, {
