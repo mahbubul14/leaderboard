@@ -2,25 +2,33 @@ main {
   display: flex;
 }
 
+h1 {
+  margin-top: 40px;
+  margin-bottom: 70px;
+}
+
+.first {
+  margin-left: 60px;
+}
+
 .flex {
   display: flex;
 }
 
-.flex-column {
+.second {
   display: flex;
   flex-direction: column;
-  width: 20%;
-  max-width: 20%;
-}
-
-section {
-  width: 40%;
-  max-width: 20%;
-  margin: 30px;
+  width: 200px;
+  margin-left: 20%;
+  margin-top: 12px;
 }
 
 #name {
   margin-bottom: 20px;
+}
+
+.score-heading {
+  margin-bottom: 25px;
 }
 
 #score {
@@ -29,8 +37,18 @@ section {
 
 #submit {
   width: 70px;
+  height: 30px;
+  border: 3px solid green;
+  margin-left: 130px;
 }
 
 #refresh {
   margin: 20px;
+  border: 3px solid green;
+}
+
+.table {
+  border: 3px  solid black;
+  padding: 8px;
+  background-color: lightgreen;
 }
